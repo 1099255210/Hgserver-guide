@@ -8,8 +8,8 @@
    2. [普通指令](#12-普通指令)
       1. [跑图服务器](#121-跑图服务器)
       2. [滑翔服务器](#122-滑翔服务器)
-   3. [管理员指令](#13-管理员指令)
-
+      3. [*各服务器地图列表](#123-*各服务器地图列表)
+3. [管理员指令](#13-管理员指令)
 2. [进阶控制](#2-进阶控制)
    1. [Rcon](#21-rcon)
    2. [绑定按键](#22-绑定按键)
@@ -183,6 +183,95 @@ rtv
 
 > MovementHUD 菜单。MovementHUD 是专业的显示速度与按键的插件
 
+##### 1.2.3 *各服务器地图列表
+
+主服务器( hgserver.xyz )
+
+```
+de_mirage
+de_inferno
+de_train
+de_dust2
+de_cache
+de_nuke
+de_cbble
+de_anubis
+de_overpass
+de_vertigo
+de_mirage_parkour
+de_overpass_cyberpunk
+de_inferno_destruct
+mini_mirage_rooftops
+mini_inferno
+mini_train
+de_dust2_mirror
+de_mirage_cyberpunk
+am_must2
+am_water
+am_grass2
+```
+
+滑翔服务器( surf.hgserver.xyz )
+
+```
+surf_aircontrol_fixed
+surf_ameliorate
+surf_aser2
+surf_asrown
+surf_benevolent
+surf_beyond
+surf_cartoon1
+surf_colum_2
+surf_duggywuggy
+surf_easy
+surf_eclipse_fix
+surf_ecosystem
+surf_fortum
+surf_frost
+surf_garden_go
+surf_gleam
+surf_golden_a
+surf_hades2
+surf_helloworld
+surf_highlands
+surf_hourglass
+surf_how2surf
+surf_imagine_fix
+surf_inferno
+surf_ivory
+surf_kitsune
+surf_lovetunnel
+surf_me
+surf_methadone
+surf_milkyway
+surf_minigolf
+surf_not_so_beginner
+surf_not_so_disaster
+surf_nyx
+surf_oasis
+surf_olympics_sns
+surf_piano
+surf_proximity_final
+surf_reytx
+surf_rooftopsv2
+surf_rookie
+surf_sandtrap2
+surf_simpsons_go_rc2
+surf_spaceship_ksf
+surf_squirrelsonvacation
+surf_sundown_njv
+surf_sunnyhappylove
+surf_voteforthisone1
+surf_premium
+surf_ethereal1
+surf_interference_csgo
+surf_borderlands
+surf_korn
+surf_serenity
+```
+
+ 查看最近更新的地图请到 <https://web.hgserver.xyz/map.txt> 
+
 #### 1.3 管理员指令
 
 `!admin`
@@ -258,6 +347,11 @@ bind "e" "+r"
 
 ### 3 版本信息
 
-当前文档版本：**_0.1 Alpha_**
+当前文档版本：**0.2 Alpha**
+
+- 更新了一些指令
+- 更新了服务器地图列表方便查询
+
+**_0.1 Alpha_**
 
 - 初步搭建了文档框架，完成了基本的内容
